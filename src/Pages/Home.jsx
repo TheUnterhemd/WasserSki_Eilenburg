@@ -16,7 +16,7 @@ export const Home = () => {
 
   return (
     <div id="home">
-        <div className="headline align-middle text-center fw-bold"><h1>WAKE WITH US</h1></div>
+        <div className="headline d-flex justify-content-center text-center fw-bold "><h1>WAKE WITH US</h1></div>
         <div className="wetterApi d-flex flex-row justify-content-around align-items-center flex-wrap ">
             <div className="wetter-item">Temperatur: {temperature}°C</div>
             <div className="wetter-item">Bewölkung:<img src={`http://openweathermap.org/img/wn/${weather[0].icon}.png`} alt="Weather Icon" /></div>

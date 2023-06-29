@@ -5,7 +5,7 @@
 }
 
 #home{
-    background: url('../Pics/Home_Background.jpg') center;
+    background: url('../Pics/Home_Background.jpg') center/cover;
     height: 94.9vh;
     
     overflow: hidden;
@@ -33,7 +33,12 @@
     justify-content: center;
 }
 .headline{
-    font-size: 40rem;
-    position:absolute;
-    top:50;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+.headline h1{
+    font-size: 10rem;
+    color: white;
+    font-weight: 1000;
 }

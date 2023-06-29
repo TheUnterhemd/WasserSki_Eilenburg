@@ -1,1 +1,8 @@
-
+@font-face {
+    font-family: 'CustomFont'; /* Der Name der benutzerdefinierten Schriftart */
+    src: url('../src/Font/BebasNeue-Regular.ttf') format('truetype'); /* Der Pfad zur Schriftartdatei */
+  }
+  
+  body {
+    font-family: 'CustomFont', sans-serif; /* Verwendung der benutzerdefinierten Schriftart */
+  }
