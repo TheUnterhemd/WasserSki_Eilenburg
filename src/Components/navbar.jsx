@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <div>
-      <BrowserRouter>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link to='/' className="navbar-brand">WasserSki Eilenburg</Link>
@@ -39,7 +38,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      </BrowserRouter>
     </div>
   );
 };
