@@ -2,9 +2,11 @@ import React from 'react'
 
 const Construction = () => {
 
-const style={
+const picSize={
   height: "94.9vh",
-
+}
+const headline={
+  "font-size": "5rem",
 }
 
   return (
@@ -17,23 +19,23 @@ const style={
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://www.warehouse-one.de/blog/wp-content/uploads/2017/05/15625201_223442954772221_8069898392727191552_n_002.jpg" className="d-block w-100" alt="..." style={style}/>
+      <img src="https://www.warehouse-one.de/blog/wp-content/uploads/2017/05/15625201_223442954772221_8069898392727191552_n_002.jpg" className="d-block w-100" alt="..." style={picSize}/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
+        <p style={headline}>First slide label</p>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://www.unit-parktech.com/wp-content/uploads/2022/01/unit-parktech-08.jpg" className="d-block w-100" alt="..." style={style}/>
+      <img src="https://www.unit-parktech.com/wp-content/uploads/2022/01/unit-parktech-08.jpg" className="d-block w-100" alt="..." style={picSize}/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
+        <p style={headline}>Second slide label</p>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://static.wixstatic.com/media/624bd4_1dc19f188913415ea7e5981285915c6c~mv2.jpg/v1/fill/w_560,h_366,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/sSBjuX8Sl20.jpg" className="d-block w-100" alt="..." style={style}/>
+      <img src="https://static.wixstatic.com/media/624bd4_1dc19f188913415ea7e5981285915c6c~mv2.jpg/v1/fill/w_560,h_366,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/sSBjuX8Sl20.jpg" className="d-block w-100" alt="..." style={picSize}/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
+        <p style={headline}>Third slide label</p>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
